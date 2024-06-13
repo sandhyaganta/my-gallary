@@ -1,0 +1,23 @@
+.con {
+  background: url("/assets/homepage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 559px;
+}
+.card1 {
+  margin-top: 80px;
+  width: 90%;
+}
+.chead {
+  background-color: #1fb6ff;
+  color: white;
+  height: 80px;
+}
+.btn {
+  background-color: #1fb6ff;
+  color: white;
+}
+.ip {
+  font-size: small;
+}
