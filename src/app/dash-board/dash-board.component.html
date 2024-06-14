@@ -1,0 +1,43 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+    <mat-toolbar class="mat1">
+      
+      MENU
+    </mat-toolbar>
+    <mat-nav-list>
+      <img class="" width="100%" src="assets\book2.png">
+      <h1 class="mat1 text-center">My Gallarybook</h1>
+      <a  class="mat1 nav-link p-3" style="color: #F9CB68; font-size: large;"  routerLink="home"><i class="bi bi-speedometer2 "></i>Dashboard</a>
+      <a class="mat1 nav-link p-3" style="color: #F9CB68; font-size: large;"  routerLink="subscriptions"><i class="bi bi-plus-square"></i>Subscriptions</a>
+      <a class="mat1 nav-link p-3" style="color: #F9CB68; font-size: large;" routerLink="templates"><i class="bi bi-file-image-fill"></i>Templates</a>
+      <a class="mat1 nav-link p-3" style="color: #F9CB68; font-size: large;" routerLink="emplyees"><i class="bi bi-person-circle"></i> Emplyees</a>
+      <a class="mat1 nav-link p-3" style="color: #F9CB68; font-size: large;" routerLink="orders"><i class="bi bi-cart-fill"></i> Orders</a>
+
+      
+    </mat-nav-list>
+  </mat-sidenav>
+  
+  <mat-sidenav-content>
+    <mat-toolbar  class="mat">
+       
+        <!-- <button
+          type="button"
+          aria-label="Toggle sidenav"
+          mat-icon-button
+          (click)="drawer.toggle()">
+          <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+        </button> -->
+        <button mat-icon-button (click)="drawer.toggle()">
+          <i class="bi bi-list bii"></i> </button>
+      
+      <span class="my fw-bold">MY <span class="mat1 fw-bold">GALLARY</span> BOOK</span>
+      <div class="space"></div>
+      <button type="button" class="btn  log"  routerLink="/homepage">Logout</button>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+

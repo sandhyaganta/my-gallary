@@ -1,0 +1,62 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  background-color: #1fb6ff;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+  
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.mat{
+  background-color:#1fb6ff;
+  
+}
+.my{
+  color:#F9CB68;
+  font-size: x-large;
+  
+}
+.mat1{
+  color:white;
+  font-size: x-large;
+}
+
+
+
+a:hover {
+  color: white !important;
+  background-color:#F9CB68 ;
+  
+}
+.space{
+  flex: 1 1 auto;
+}
+.log{
+ 
+  background-color: #F9CB68;
+  color:white
+}
+.log:hover{
+  background-color: #1fb6ff;
+  color: #F9CB68;
+  border-color: #F9CB68;
+}
+.bi{
+  font-size: small;
+}
+.bii{
+  font-size: larger;
+ 
+}
+
+
