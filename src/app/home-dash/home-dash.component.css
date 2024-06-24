@@ -1,0 +1,180 @@
+.r1 {
+  background-color: #4ecdc4;
+}
+.ptag {
+  font-size: xx-large;
+  color: white;
+}
+.car {
+  height: 175px;
+  width: 150px;
+  background-color: #fff;
+  
+  box-shadow: 0px 3px 2px #aab2bd;
+}
+.ptag1 {
+    color: #797979;
+  font-size: 20px;
+}
+hr {
+  margin-left: 32px;
+  border: 2px solid #1e88e5;
+  
+}
+.btnn{
+    width: 105px;
+    height: 95px;
+    background-color: #575aa0;
+}
+.btnn:hover{
+    background-color:#f9cb68 ;
+    cursor: pointer;
+}
+.pan{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.btn1{
+    width: 105px;
+    height: 95px;
+    background-color:#1e88e5;
+
+}
+.btn1:hover{
+    background-color:#f9cb68 ;
+    cursor: pointer;
+}
+.btn2{
+    width: 105px;
+    height: 95px;
+    background-color:#ff9800;
+
+}
+.btn2:hover{
+    background-color:#f9cb68 ;
+    cursor: pointer;
+}
+.btn3{
+    width: 105px;
+    height: 95px;
+    background-color:#cddc39;
+
+}
+.btn3:hover{
+    background-color:#f9cb68 ;
+    cursor: pointer;
+}
+.btn4{
+    width: 105px;
+    height: 95px;
+    background-color:#3ba251;
+
+}
+.btn4:hover{
+    background-color:#f9cb68 ;
+    cursor: pointer;
+}
+.h2h{
+    color: #797979;
+}
+.car1{
+    width:200px ;
+    height: 225px;
+    box-shadow: 0px 3px 2px #aab2bd;
+}
+.car12{
+    width:200px ;
+    height: 225px;
+    box-shadow: 0px 3px 2px #aab2bd;
+    background-color:#DFDFE1;
+
+}
+.chead2{
+    background-color: #bcbcbf;
+    color:black;
+}
+.car13{
+    width:200px ;
+    height: 225px;
+    box-shadow: 0px 3px 2px #aab2bd;
+    background-color:#333;
+
+}
+.pan13{
+    color:white;
+    font-size: 65px;
+}
+
+.chead2{
+    background-color: #3b3636;
+    color:white;
+}
+.pp1{
+    color:white;
+    font-size: xx-large;
+}
+.car14{
+    width:200px ;
+    height: 225px;
+    box-shadow: 0px 3px 2px #aab2bd;
+    background-color: #4ecdc4;
+}
+.chead1{
+    background-color: #059f95;
+    color:white;
+}
+.pan1{
+    font-size: 65px;
+    color: #797979;
+}
+.pp{
+    color: #797979;
+    font-size: xx-large;
+}
+.chead{
+    background-color:#f5f5fa ;
+}
+.pan14{
+    color:#797979;
+    font-size: 65px;
+}
+.r2{
+    background-color: white;
+}
+.ptag2{
+    font-size: xx-large;
+  color: #797979;
+
+}
+.con{
+    background-color: #ededf9;
+}
+.car15{
+    height: 195px;
+    width: 290px;
+    background-color: #DADAD2;
+    box-shadow: 0px 3px 2px #aab2bd;
+}
+.badge{
+    background-color: #ED5565;
+    width: 70px;
+    height: 65px;
+}
+.pan6{
+    font-size: 16px;
+}
+
+.person{
+    color: #ED5565;
+    font-size: 70px;
+
+}
+.Custmer{
+    background-color: #ED5565;
+    color:white;
+}
+
+
+
+

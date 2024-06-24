@@ -1,0 +1,60 @@
+.con{
+    background-color: #ededf9; 
+}
+.header{
+    color: #797979;
+}
+.h3tag{
+    color:  #1fb6ff;
+}
+.label{
+    color: #797979;
+}
+.hr1{
+    width: 95%;
+    align-items: center;
+    color: #797979;
+  }
+  .savebt{
+    background-color: #1fb6ff;
+    color: white;
+  }
+  .savebt:hover{
+    cursor: pointer;
+    background-color: #F9CB68;
+  }
+  .cancelbt{
+    background-color: #ED5565;
+    color: white;
+    cursor: pointer;
+  }
+  .car {
+    /* height: 175px; */
+    width: 450px;
+    background-color: #fff;
+    
+    box-shadow: 0px 3px 2px #aab2bd;
+  }
+  .car1{
+    width: 290px;
+  }
+  .h2tag{
+    color: #797979;
+  }
+  .activebt{
+    background-color: #4ecdc4;
+    color: white;
+  }
+  .deletebt{
+    background-color: #ED5565;
+    color: white;
+  
+  }
+  .savebt{
+    color: white;
+    background-color: #1fb6ff;
+  }
+  .savebt:hover{
+    cursor: pointer;
+    background-color: #F9CB68;
+  }

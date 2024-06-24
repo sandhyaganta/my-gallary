@@ -6,6 +6,7 @@ import { SubscriptionsComponent } from './subscriptions/subscriptions.component'
 import { TemplatesComponent } from './templates/templates.component';
 import { EmplyeesComponent } from './emplyees/emplyees.component';
 import { OrdersComponent } from './orders/orders.component';
+import { PaymentsComponent } from './payments/payments.component';
 
 
 export const routes: Routes = [
@@ -17,7 +18,8 @@ export const routes: Routes = [
     {path:'subscriptions',component:SubscriptionsComponent},
     {path:'templates',component:TemplatesComponent},
     {path:'emplyees',component:EmplyeesComponent},
-    {path:'orders',component:OrdersComponent}
+    {path:'orders',component:OrdersComponent},
+    {path:"payment",component:PaymentsComponent}
    
 
     ]},
