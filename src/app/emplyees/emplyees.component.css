@@ -1,0 +1,94 @@
+.con {
+  background-color: #ededf9;
+}
+.header {
+  color: #797979;
+}
+.h3tag {
+  color: #1fb6ff;
+}
+.hr1 {
+  width: 95%;
+  align-items: center;
+  color: #797979;
+}
+.label {
+  color: #797979;
+}
+.car {
+  /* height: 175px; */
+
+  background-color: #fff;
+
+  box-shadow: 0px 3px 2px #aab2bd;
+}
+.savebt {
+  background-color: #1fb6ff;
+  color: white;
+}
+.savebt:hover {
+  cursor: pointer;
+  background-color: #f9cb68;
+}
+.cancelbt {
+  background-color: #ed5565;
+  color: white;
+  cursor: pointer;
+}
+.anchor {
+  text-decoration: none;
+  color: #797979;
+  background-color: #f5f7fa;
+}
+.acbut {
+  background-color: none ! important;
+  display: inline;
+  position: static;
+  height: 10%;
+  width: 15%;
+}
+.spa{
+  color:white;
+  font-size: 11px;
+  text-align: center;
+}
+.savebt{
+  background-color: #1fb6ff;
+  color: white;
+}
+.savebt:hover{
+  cursor: pointer;
+  background-color: #F9CB68;
+}
+.activebt{
+  background-color: #4ecdc4;
+  color: white;
+}
+.deletebt{
+  background-color: #ED5565;
+  color: white;
+
+}
+.hr11{
+  width: 100%;
+  
+  color: #797979;
+}
+.accordion-button{
+  background-color: green;
+  
+}
+.accordion-button:not(.collapsed){
+  background-color: red;
+}
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus-circle' viewBox='0 0 16 16'%3E%3Cpath d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16'/%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4'/%3E%3C/svg%3E");
+  order: -1;
+  margin-right:0.5em;
+  background-color: white;
+}
+
+.accordion-button:not(.collapsed)::after {
+ background-color: white;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash-circle' viewBox='0 0 16 16'%3E%3Cpath d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16'/%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8'/%3E%3C/svg%3E");
+}

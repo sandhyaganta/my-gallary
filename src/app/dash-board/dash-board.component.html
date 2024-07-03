@@ -21,7 +21,7 @@
   </mat-sidenav>
   
   <mat-sidenav-content>
-    <mat-toolbar  class="mat">
+  
        
         <!-- <button
           type="button"
@@ -30,13 +30,26 @@
           (click)="drawer.toggle()">
           <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
         </button> -->
-        <button mat-icon-button (click)="drawer.toggle()">
-          <i class="bi bi-list bii"></i> </button>
+        <div class="row mat">
+          <div class="col-sm-4">
+            <button mat-icon-button (click)="drawer.toggle()">
+              <i class="bi bi-list bii"></i> </button>
+          
+          <span class="my fw-bold">MY <span class="mat1 fw-bold">GALLARY</span> BOOK</span>
+
+          </div>
+          <div class="col-sm-6"></div>
+          <div class="col-sm-2">
+            <div class="text-end ">
+              <button type="button" class="btn  log mt-1  me-4 mb-1"  routerLink="/homepage">Logout</button>
+
+            </div>
+          </div>
+        </div>
+        
       
-      <span class="my fw-bold">MY <span class="mat1 fw-bold">GALLARY</span> BOOK</span>
-      <div class="space"></div>
-      <button type="button" class="btn  log"  routerLink="/homepage">Logout</button>
-    </mat-toolbar>
+      
+    
     <router-outlet></router-outlet>
     <div class=" container-fluid" style="bottom: 0;">
       <div class="row " style="background-color: #F9CB68;">
