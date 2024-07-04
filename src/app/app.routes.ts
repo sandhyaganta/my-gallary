@@ -20,8 +20,10 @@ export const routes: Routes = [
     {path:'emplyees',component:EmplyeesComponent},
     {path:'orders',component:OrdersComponent},
     {path:"payment",component:PaymentsComponent}
+    
    
 
     ]},
+   
     
 ];
