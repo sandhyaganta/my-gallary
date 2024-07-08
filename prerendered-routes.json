@@ -1,0 +1,13 @@
+{
+  "routes": [
+    "/dash",
+    "/dash/customer",
+    "/dash/emplyees",
+    "/dash/home",
+    "/dash/orders",
+    "/dash/payment",
+    "/dash/subscriptions",
+    "/dash/templates",
+    "/homepage"
+  ]
+}
