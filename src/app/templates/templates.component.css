@@ -35,6 +35,8 @@
     
     box-shadow: 0px 3px 2px #aab2bd;
     
+  
+    
   }
   .car1{
     width: 290px;
@@ -59,3 +61,9 @@
     cursor: pointer;
     background-color: #F9CB68;
   }
+
+  /* .col{
+    height: 400px;
+    overflow-y: auto;
+
+  } */

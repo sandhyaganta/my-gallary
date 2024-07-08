@@ -7,6 +7,7 @@ import { TemplatesComponent } from './templates/templates.component';
 import { EmplyeesComponent } from './emplyees/emplyees.component';
 import { OrdersComponent } from './orders/orders.component';
 import { PaymentsComponent } from './payments/payments.component';
+import { CustomersComponent } from './customers/customers.component';
 
 
 export const routes: Routes = [
@@ -19,7 +20,8 @@ export const routes: Routes = [
     {path:'templates',component:TemplatesComponent},
     {path:'emplyees',component:EmplyeesComponent},
     {path:'orders',component:OrdersComponent},
-    {path:"payment",component:PaymentsComponent}
+    {path:"payment",component:PaymentsComponent},
+    {path:"customer",component:CustomersComponent}
     
    
 
